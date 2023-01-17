@@ -1,0 +1,8 @@
+[source,bash]
+----
+$ echo '{
+  "title" : "v1 테스트 제목",
+  "content" : "v1 테스트 내용"
+}' | http POST 'http://localhost:8080/v1' \
+    'Content-Type:application/json'
+----

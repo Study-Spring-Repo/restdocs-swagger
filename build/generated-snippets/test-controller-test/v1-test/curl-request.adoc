@@ -1,0 +1,9 @@
+[source,bash]
+----
+$ curl 'http://localhost:8080/v1' -i -X POST \
+    -H 'Content-Type: application/json' \
+    -d '{
+  "title" : "v1 테스트 제목",
+  "content" : "v1 테스트 내용"
+}'
+----

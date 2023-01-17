@@ -1,0 +1,28 @@
+{
+  "operationId" : "test-controller-test/v1-test",
+  "summary" : null,
+  "description" : null,
+  "privateResource" : false,
+  "deprecated" : false,
+  "request" : {
+    "path" : "/v1",
+    "method" : "POST",
+    "contentType" : "application/json",
+    "schema" : null,
+    "headers" : [ ],
+    "pathParameters" : [ ],
+    "requestParameters" : [ ],
+    "requestFields" : [ ],
+    "example" : "{\n  \"title\" : \"v1 테스트 제목\",\n  \"content\" : \"v1 테스트 내용\"\n}",
+    "securityRequirements" : null
+  },
+  "response" : {
+    "status" : 200,
+    "contentType" : "application/json",
+    "schema" : null,
+    "headers" : [ ],
+    "responseFields" : [ ],
+    "example" : "{\n  \"title\" : \"v1 테스트 제목\",\n  \"content\" : \"v1 테스트 내용\"\n}"
+  },
+  "tags" : [ "v1" ]
+}
